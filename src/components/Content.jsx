@@ -14,7 +14,7 @@ export default function Content(){
             </Typography>
             </Box>
             <Grid container rowSpacing={3}  columnSpacing={3} >
-                <Grid item sx={{ width:'50%' }}>
+                <Grid item md={6} sm={12} xs={12}>
                     <Card >
                     <CardMedia
                         sx={{ height: 140 }}
@@ -31,7 +31,7 @@ export default function Content(){
                     </CardContent>
                 </Card>
                 </Grid>
-                <Grid item sx={{ width:'50%' }}>
+                <Grid item md={6} sm={6} xs={12}>
                     <Card >
                     <CardMedia
                         sx={{ height: 140 }}
@@ -48,7 +48,7 @@ export default function Content(){
                     </CardContent>
                 </Card>
                 </Grid>
-                <Grid item sx={{  width:'50%' }}>
+                <Grid item md={6} sm={6} xs={12}>
                     <Card >
                     <CardMedia
                         sx={{ height: 140 }}
